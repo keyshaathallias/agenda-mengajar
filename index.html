@@ -43,17 +43,7 @@
           enctype="multipart/form-data"
         >
           <div class="row">
-            <div class="col-md-6">
-              <label for="nama">No :</label>
-              <input
-                type="text"
-                id="no"
-                name="no"
-                class="form-control"
-                required
-              />
-            </div>
-            <div class="col-md-6">
+            <div class="col">
               <label for="nama">Mata Pelajaran :</label>
               <input
                 type="text"
@@ -63,10 +53,7 @@
                 required
               />
             </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6">
+            <div class="col">
               <label for="kelas">Kelas :</label>
               <input
                 type="text"
@@ -76,7 +63,7 @@
                 required
               />
             </div>
-            <div class="col-md-6">
+            <div class="col">
               <label for="tgl_kgt">Tanggal kegiatan:</label>
               <input
                 type="date"
@@ -88,18 +75,8 @@
             </div>
 
             <div class="row">
-              <div class="col-md-6">
-                <label for="target">Target :</label>
-                <input
-                  type="text"
-                  id="target"
-                  name="target"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col-md-6">
-                <label for="nama_siswa">Nama Siswa :</label>
+              <div class="col">
+                <label for="nama_siswa">Kehadiran Siswa :</label>
                 <input
                   type="text"
                   id="nama_siswa"
@@ -127,7 +104,7 @@
 
             <div class="row mt-4">
               <label for="buktis" class="mb-2">Bukti Kegiatan :</label>
-              <div class="col-md-6">
+              <div class="col">
                 <label for="buktis" class="btn btn-primary w-100">
                   <i class="bi bi-cloud-upload"></i> Pilih Foto
                   <input
@@ -140,7 +117,7 @@
                   />
                 </label>
               </div>
-              <div class="col-md-6">
+              <div class="col">
                 <input type="hidden" id="buktisEnc" name="buktisEnc" />
                 <button
                   type="button"
